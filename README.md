@@ -2,7 +2,7 @@
 
 A React web app for browsing and searching movies, saving favorites, and exploring movies by release year.
 
-![Screenshot](screenshot.png)
+https://github.com/user-attachments/assets/972f18c3-0abb-4824-bbc0-c7564c716070
 
 ## Features
 
