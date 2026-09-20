@@ -69,4 +69,4 @@ This product uses the TMDB API but is not endorsed or certified by TMDB.
 
 ## Author
 
-Sisuru Navod - [GitHub](https://github.com/sisurunavod123)
+Sisuru Navod - [GitHub_profile](https://github.com/sisurunavod123-tech)
