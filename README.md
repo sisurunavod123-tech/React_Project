@@ -1,16 +1,72 @@
-# React + Vite
+# Movie App 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web app for browsing and searching movies, saving favorites, and exploring movies by release year.
 
-Currently, two official plugins are available:
+![Screenshot](screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Browse popular movies
+- Search for any movie by title
+- Add and remove movies from your favorites
+- Browse movies by release year using the Year dropdown in the navbar
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- React Router
+- Context API (favorites state)
+- [TMDB API](https://www.themoviedb.org/documentation/api)
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or later)
+- A free TMDB API key from [themoviedb.org](https://www.themoviedb.org/settings/api)
+
+### Installation
+
+1. Clone the repository:
+```bash
+   git clone https://github.com/YOUR-USERNAME/movie-app.git
+   cd movie-app
+```
+
+2. Install dependencies:
+```bash
+   npm install
+```
+
+3. Create a `.env` file in the project root and add your API key:
+```
+   VITE_TMDB_API_KEY=your_api_key_here
+```
+
+4. Start the development server:
+```bash
+   npm run dev
+```
+
+5. Open the local URL shown in the terminal (http://localhost:5173).
+
+## Project Structure
+
+```
+src/
+├── components/   # Reusable components (NavBar, MovieCard)
+├── context/      # MovieContext for favorites
+├── css/          # Stylesheets
+├── pages/        # Home, Favorites, Year
+└── services/     # API functions
+```
+
+## Acknowledgements
+
+This product uses the TMDB API but is not endorsed or certified by TMDB.
+
+## Author
+
+Sisuru Navod - [GitHub](https://github.com/sisurunavod123)
